@@ -1,0 +1,7 @@
+def string_times(str, n):
+  string_n = ""
+  if n < 0:
+    return "n must be larger than zero!"
+  for i in range(n):
+    string_n += str
+  return string_n
