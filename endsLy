@@ -1,0 +1,10 @@
+public boolean endsLy(String str) {
+  if (str.length() < 2){
+    return false;
+  }
+  for (int i = 0; i < str.length(); i++) {
+    if (str.indexOf("ly") == str.length()-2)
+      return true;
+  }
+  return false;
+}
